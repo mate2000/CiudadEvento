@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceProvider.MainPanelServiceProvider">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido \nEscoja la opción que desee"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnPostEvents"
+        android:text="Postular eventos"
+        android:textSize="25dp"
+        android:layout_marginTop="260dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnMyEvents"
+        android:text="Ver mis eventos"
+        android:textSize="25dp"
+        android:layout_below="@+id/btnPostEvents"
+        android:layout_marginTop="30dp"
+        />
+
+</RelativeLayout>

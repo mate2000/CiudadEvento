@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivities.MainRegisterSP">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:id="@+id/etRSPUser"
+        />
+
+    <EditText
+        android:id="@+id/etRSPPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etRSPUser"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:hint="Contraseña min 6 caracteres"
+        android:inputType="textPassword"
+        android:textSize="25dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Cedula"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:id="@+id/etRSPIdentificationCard"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/etRSPPassword"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo electronico"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:id="@+id/etRSPEmail"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/etRSPIdentificationCard"
+        android:inputType="textEmailAddress"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre completo"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:id="@+id/etRSPFullName"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/etRSPEmail"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Celular"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:id="@+id/etRSPCellphone"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/etRSPFullName"
+        android:inputType="number"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etRSPCellphone"
+        android:layout_marginTop="25dp"
+        android:id="@+id/btnRSPAddRUT"
+        android:text="Agregar RUT"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etRSPCellphone"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="220dp"
+        android:text="Ver RUT"
+        android:textSize="25dp"
+        android:id="@+id/btnSeeRUT"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrarme :D"
+        android:textSize="25dp"
+        android:layout_below="@+id/btnRSPAddRUT"
+        android:layout_marginTop="30dp"
+        android:id="@+id/btnRSPRegister"
+        />
+
+    <ImageView
+        android:id="@+id/ivRSPRUT"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etRSPCellphone"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="220dp"
+        android:text="Volver"
+        android:textSize="25dp"
+        android:id="@+id/btnRSPBackSeeRUT"
+        />
+
+
+</RelativeLayout>

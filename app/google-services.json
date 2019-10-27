@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "851327851245",
+    "firebase_url": "https://appciudadpromocionaevent-dd2b9.firebaseio.com",
+    "project_id": "appciudadpromocionaevent-dd2b9",
+    "storage_bucket": "appciudadpromocionaevent-dd2b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:851327851245:android:29f5c9db9920893aeacae4",
+        "android_client_info": {
+          "package_name": "com.example.appciudadpromocionaeventos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "851327851245-kkfq8mav6g7vbougc0ju9jiunj0qhk3f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appciudadpromocionaeventos",
+            "certificate_hash": "4216c81e1905e567e52a36da5fd73e1ce3d090c5"
+          }
+        },
+        {
+          "client_id": "851327851245-1jvbqm3an0vohhn75i9oao2qj66kiou9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.appciudadpromocionaeventos",
+            "certificate_hash": "e7058e8458ae022d1d44b630ff206e8fae4c3bc2"
+          }
+        },
+        {
+          "client_id": "851327851245-2uoc6ur7422njm88qg5l8bpv4ej1c22r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvx0UEpkDsNYV760UCoSH9lCwRQ0FLFHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "851327851245-2uoc6ur7422njm88qg5l8bpv4ej1c22r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

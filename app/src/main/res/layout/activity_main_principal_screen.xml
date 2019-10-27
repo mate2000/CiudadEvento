@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPrincipalScreen">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:id="@+id/tvMessageWelcome"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMessageWelcome"
+        android:id="@+id/tvMessage2"
+        android:text="      Registrate      Inicia sesion"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMessage2"
+        android:text="Ciudadano"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/btnRegisterCitizen"
+        />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRegisterCitizen"
+        android:text="prestador"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/btnRegisterServiceProvider"
+        />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRegisterServiceProvider"
+        android:text="Secretaría"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/btnRegisterTourismSecretary"
+        />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvMessage2"
+        android:text="Ciudadano"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="190dp"
+        android:id="@+id/btnLoginCitizen"
+        />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLoginCitizen"
+        android:text="prestador"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="190dp"
+        android:id="@+id/btnLoginServiceProvider"
+        />
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLoginServiceProvider"
+        android:text="Secretaría"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="190dp"
+        android:id="@+id/btnLoginTourismSecretary"
+        />
+
+</RelativeLayout>

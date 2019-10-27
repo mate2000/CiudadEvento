@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TourismSecretary.MainPostulatedEventPanel">
+
+
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvNameEventPTS"
+            android:layout_width="266dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_x="75dp"
+            android:layout_y="24dp"
+            android:gravity="center"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/tvPlaceEventPTS"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvNameEventPTS"
+            android:layout_marginTop="20dp"
+            android:layout_x="104dp"
+            android:layout_y="87dp"
+            android:gravity="center"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/tvDateEventPTS"
+            android:layout_width="123dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvPlaceEventPTS"
+            android:layout_marginTop="20dp"
+            android:layout_x="71dp"
+            android:layout_y="156dp"
+            android:gravity="center"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/tvHoursEventPTS"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDateEventPTS"
+            android:layout_marginTop="20dp"
+            android:layout_x="248dp"
+            android:layout_y="155dp"
+            android:gravity="center"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/tvDescrEventPTS"
+            android:layout_width="254dp"
+            android:layout_height="92dp"
+            android:layout_below="@+id/tvHoursEventPTS"
+            android:layout_marginTop="20dp"
+            android:layout_x="80dp"
+            android:layout_y="203dp"
+            android:gravity="center"
+            android:textSize="22dp" />
+
+        <TextView
+            android:id="@+id/tvEmailEventPTS"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDescrEventPTS"
+            android:layout_marginTop="20dp"
+            android:layout_x="125dp"
+            android:layout_y="309dp"
+            android:gravity="center"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/btnSeeRUTPTS"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvEmailEventPTS"
+            android:layout_marginTop="20dp"
+            android:layout_x="31dp"
+            android:layout_y="372dp"
+            android:text="Ver rut"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/btnHideRUTPTS"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvEmailEventPTS"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="20dp"
+            android:layout_x="215dp"
+            android:layout_y="373dp"
+            android:text="Volver"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ivRUTPTS"
+            />
+
+        <TextView
+            android:id="@+id/tvMessage3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnHideRUTPTS"
+            android:layout_marginTop="20dp"
+            android:layout_x="109dp"
+            android:layout_y="434dp"
+            android:gravity="center"
+            android:text="¿Aprobar evento?"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/btnYesApproveEventPTS"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnSeeRUTPTS"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_x="32dp"
+            android:layout_y="510dp"
+            android:text="Si" />
+
+        <Button
+            android:id="@+id/btnNoApproveEventPTS"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnHideRUTPTS"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="60dp"
+            android:layout_x="233dp"
+            android:layout_y="508dp"
+            android:text="No" />
+
+        <TextView
+            android:id="@+id/tvMessage4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnYesApproveEventPTS"
+            android:layout_marginTop="20dp"
+            android:layout_x="102dp"
+            android:layout_y="601dp"
+            android:gravity="center"
+            android:text="¿Financiar evento?"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/btnYesFinancingEventPTS"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnYesApproveEventPTS"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="60dp"
+            android:layout_x="24dp"
+            android:layout_y="669dp"
+            android:text="Si" />
+
+        <Button
+            android:id="@+id/btnNoFinancingEventPTS"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnNoApproveEventPTS"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="60dp"
+            android:layout_x="232dp"
+            android:layout_y="667dp"
+            android:text="No" />
+
+        <TextView
+            android:id="@+id/tvMessage5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="93dp"
+            android:layout_y="767dp"
+            android:gravity="center"
+            android:text="¿Patrocinar evento?"
+            android:textSize="22dp"
+
+            tools:layout_editor_absoluteX="135dp"
+            tools:layout_editor_absoluteY="563dp" />
+
+        <Button
+            android:id="@+id/btnYesPublicity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="35dp"
+            android:layout_y="826dp"
+            android:text="Si"
+            tools:layout_editor_absoluteX="218dp"
+            tools:layout_editor_absoluteY="297dp" />
+
+        <Button
+            android:id="@+id/btnNoPublicity"
+            android:layout_width="103dp"
+            android:layout_height="wrap_content"
+            android:layout_x="226dp"
+            android:layout_y="824dp"
+            android:text="No"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="103dp" />
+    </AbsoluteLayout>
+
+
+</ScrollView>
